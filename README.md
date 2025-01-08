@@ -207,11 +207,10 @@ This project is a feature-rich image viewer that allows users to view, edit, and
 ## Requirements
 
   Run the following command to install dependencies:
-    bash
-    
+  
        pip install -r requirements.txt
-
----
+       
+ ---
 
 ### Acknowledgments
 
