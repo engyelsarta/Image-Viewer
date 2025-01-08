@@ -11,14 +11,20 @@ This project is a feature-rich image viewer that allows users to view, edit, and
 1. **Image Viewing**
    - Load and view a 2D grayscale image in the input viewport.
    - Apply transformations and display results in either of two output viewports.
+   
+   ![Image Viewing Example](Screenshots/Main_UI.png)
 
 2. **Cascading Changes**
    - Apply a change to the input image and display it in Output1.
    - Further modify Output1 and display the new result in Output2.
+     
+   ![Cascade Example](Screenshots/Cascade.png)
+
 
 3. **Histogram Viewer**
-   - View the histogram of any image (input or output) at any time via user interaction (e.g., double-click).
-
+   - View the histogram of any image (input or output) at any time via double-click.
+   
+   ![Histogram Example](Screenshots/Histogram.png)
 ---
 
 ### Editing and Analysis Tools
@@ -32,27 +38,41 @@ This project is a feature-rich image viewer that allows users to view, edit, and
     - Bilinear
     - Cubic
 
+ ![Zoom Example](Screenshots/Zoom.png)
+
 #### Signal-to-Noise Ratio (SNR) 
 1. **SNR Measurement**
    - Select two ROIs (Regions of Interest) to measure average intensities and compute SNR.
+  
+ ![SNR Example](Screenshots/SNR.png)
 
 2. **Noise Addition**
    - Add three different types of noise to the image.
+     
+![Noise Example](Screenshots/ApplyingNoise.png)
 
 3. **Noise Removal**
    - Apply three denoising techniques/filters to enhance the image.
+  
+![DeNoise Example](Screenshots/ApplyDenoise.png)
 
 #### Filtering
 - Apply **Lowpass** and **Highpass** filters to analyze image frequency components.
 
+![Filter Example](Screenshots/Filters.png)
+
 #### Contrast-to-Noise Ratio (CNR)
 -Select 3 ROIs (Regions of Interest) to measure average intensities and standard deviation of noise and compute CNR.
+
+![CNR Example](Screenshots/CNR.png)
 
 #### Contrast Enhancement 
 - Improve CNR using the following methods:
   - Histogram Equalization
   - CLAHE (Contrast Limited Adaptive Histogram Equalization)
   - Logarithmic Method
+ 
+![Contrast Example](Screenshots/ContrastEnhancement.png)
 
 
 #### Brightness and Contrast
