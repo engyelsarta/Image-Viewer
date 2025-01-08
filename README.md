@@ -12,7 +12,7 @@ This project is a feature-rich image viewer that allows users to view, edit, and
    - Load and view a 2D grayscale image in the input viewport.
    - Apply transformations and display results in either of two output viewports.
    
-   ![Image Viewing Example](Screenshots/Main_UI.png)
+   ![Image Viewing Example](Screenshots/Image_Viewer.png)
 
 2. **Cascading Changes**
    - Apply a change to the input image and display it in Output1.
